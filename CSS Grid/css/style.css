@@ -27,10 +27,12 @@ body{
     grid-column: col-end 6/full-end;
 }
 .features{
-    background-color: grey;
     grid-column: center-start/center-end;
+    display: grid;
+    grid-gap:6rem;
+    grid-template-columns: repeat(3,1fr);
 }
-.story_pictures{
+.story_pictures{    
     background-color: #e86215;
     grid-column: full-start/col-end 4;
 }
